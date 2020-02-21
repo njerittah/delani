@@ -3,6 +3,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: inherit;
 }
 .container-fluid{
   color:white;
