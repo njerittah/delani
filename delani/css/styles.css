@@ -22,6 +22,12 @@ body{
   text-align: center;
 
 }
+#landingpage h1{
+  color: white;
+}
+#landingpage p{
+  color:white;
+}
 #showcase h1{
   font-size: 50 px;
   line height: 1.2;
@@ -46,7 +52,18 @@ body{
 
 #sectiontwo{
 background-image: url('../img/background2.jpg');
-text-align: left;
+text-align: center;
+background-size: cover;
+background-position: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-left: 150px;
+padding-right: 150px;
+padding-top:150px;
+padding-bottom:150px;
+
 
 }
 .des{
@@ -58,5 +75,29 @@ text-align: left;
 
 }
 .pro{
+  text-align: center;
+}
+#sectionthree{
+  background-image: url('../img/background3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:150px;
+  padding-bottom:150px;
+
+}
+#sectiontwo h2{
+  color:white;
+  text-align: center;
+
+}
+#sectiontwo p{
+  color:white;
+}
+.foot{
+  text-align: center;
+}
+footer{
   text-align: center;
 }
