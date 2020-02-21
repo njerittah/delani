@@ -46,4 +46,11 @@ body{
 
 #sectiontwo{
 background-image: url('../img/background2.jpg');
+text-align: left;
+
+}
+#portfolio{
+  flex: 33.33%
+  height:22px;
+  width:30px
 }
