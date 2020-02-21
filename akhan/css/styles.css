@@ -1,0 +1,9 @@
+body{
+  background-image: url("../img/bea.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-fluid{
+  color:white;
+}
