@@ -27,7 +27,14 @@ body{
 }
 #showcase p{
   font-size: 20 px;
-  
+
+}
+#showcase.button{
+  font-size: 18px;
+  text-decoration: none;
+  color:white;
+  border: 1px solid;
+  padding: 10px 20 px;
 }
 #sectione{
   text-align: center;
