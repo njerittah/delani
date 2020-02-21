@@ -24,6 +24,7 @@ body{
 }
 #showcase h1{
   font-size: 50 px;
+  line height: 1.2;
 
 }
 #showcase p{
@@ -41,4 +42,8 @@ body{
 }
 #sectione{
   text-align: center;
+}
+
+#sectiontwo{
+background-image: url('../img/background2.jpg');
 }
