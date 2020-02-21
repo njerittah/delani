@@ -12,22 +12,28 @@
     <title></title>
   </head>
   <body>
+
   <h1>Akhan Name BirthDay Predictor</h1>
   <p>Akhan Name BirthDay Predictor is an application that calculates the date a user was born when he or she inputs their birth date. THis application is based on the Ghanian culture, whereby names are given in accordance to the birth  day</p>
-      <div class="textbox">
-        <p>Date of Birth Input</p>
-        <input type="dateinput" placeholder="dateinput" name="" value="">
-      </div>
-      <div class="textbox">
-        <p>Month</p>
-        <input type="monthinput" placeholder="monthinput" name="" value="">
-      </div>
-      <div class="textbox">
-        <p>Year</p>
-        <input type="monthinput" placeholder="yearinput" name="" value="">
-
-
-      </div>
+  <form id="theform" method="POST">
+    <fieldset>
+      <legend>Fill in your details</legend>
+      Date:<input type="number" id="date">
+      Month:<input type="number" id="month">
+      Year:<input type="number" id="year">
+      <select id="gender">
+        <option value="female">Female</option><br>
+        <option value="male">Male</option>
+      </select>
+    </fieldset>
+    <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="generateName(); verify(); return false"/>
+    <h2 class ="text-center" id="result"></h2>
+  </form>
+</body>
+<script src="js/script.js"></script>
+<footer class="text-center">
+Copyright &copy; 2019 designed by Vivianne.
+</footer>
 
   </form>
 

@@ -1,3 +1,29 @@
+//A function to verify
+function verify(){
+  var date = document.getElementById('date').value;
+  var month = document.getElementById('month').value;
+  var yearOfBirth = document.getElementById('year').value;
+
+  if(date===""||date<1||date>31){
+    alert("Date must be between 1 and 31");
+  }
+  else if(month===""||month<1||month>12){
+    alert("Date must be between 1 and 12");
+  }
+  else if(year===""){
+    alert("You must enter a value year");
+  }
+  else{
+    return false;
+  }
+}
+
+function generateName(){
+  var date = document.getElementById('date').value;
+
+  var month = document.getElementById('month').value;
+
+  var yearOfBirth = document.getElementById('year').value;
 
 
 
